@@ -26,3 +26,9 @@ Stop  : `docker stop docker-remote-api`
 In this example, we are using ubuntu16.04.  
 Go download and install some essential components. ->
 [CUDA10.1](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&=Ubuntu&target_version=16.04&target_type=deb_local)  
+
+### Start session
+-i, --interactive             Attach container's STDIN  
+`docker start -i <dockerID>`  
+for example:  
+`docker start -i 45c08877c88a`  
