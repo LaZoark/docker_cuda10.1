@@ -19,8 +19,8 @@ Run: `docker run -p 2375:2375 -v /var/run/docker.sock:/var/run/docker.sock --nam
 Open your browser and verify you can connect to `http://<Your IP that runing docker>:2375/_ping`  
 
 Start/Stop:  
-Start: docker start docker-remote-api  
-Stop: docker stop docker-remote-api  
+Start : `docker start docker-remote-api`  
+Stop  : `docker stop docker-remote-api`  
 
 ### Build the environment
 In this example, we are using ubuntu16.04.  
